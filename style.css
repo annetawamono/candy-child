@@ -1,0 +1,95 @@
+/*
+	Theme Name: Candy child
+	Theme URI: http://demo.agnidesigns.com/candy/
+	Author: AgniDesigns	
+	Version: 1.0
+	Description: Clean & sleek Minimal One & Multi Page WordPress theme
+	Author URI: http://themeforest.net/user/AgniHD	
+	Template: candy
+*/
+@import url("../candy/style.css");
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+	color: #222;
+}
+
+p {
+	font-size: 24px;
+}
+
+h1.big-heading {
+	line-height: 104.03px;
+	text-transform: none;
+}
+
+.heading-underlined.black:after {
+	border: 2px solid #2e6b11;
+}
+
+.heading-underlined:after {
+	width: 30%;
+}
+
+a, .toggle-nav-menu>div {
+	font-family: 'Abel', sans-serif !important;
+}
+
+.btn-primary {
+	background-color: #2e6b11;
+    border-color: #2e6b11;
+}
+
+section#land {
+	height: 100vh;
+}
+
+div.row.land-4>div:nth-child(1) {
+	background-image: url(http://localhost:8888/efs/wp-content/uploads/2018/02/Home_Owner_LE-ROUXDSD.gif);
+	background-position: 50% 0px;
+  	background-size: 250%;
+  	background-repeat: no-repeat;
+	margin: 0 0 0 0;
+	min-height: 100vh;
+	position: absolute;
+	left: 0;
+}
+
+div.row.land-4>div:nth-child(2) {
+	background-color: #f2f6f9;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+div.row.bbcement-3>div:nth-child(2) {
+  	background-image: url(http://localhost:8888/efs/wp-content/uploads/2018/02/man-leveling-the-cement-in-a-backyard-PWL7S47.jpg);
+  	background-position: 50% 290px;
+  	background-size: 250%;
+  	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0.3);
+  	background-blend-mode: multiply;
+	margin: 0 0 0 0;
+	position: absolute;
+	left: 50%;
+	width: 50%;
+    min-height: 886px;
+    max-height: 886px;
+}
+
+div.row.bbcement-3>div:nth-child(2)>div img {
+	width: 70%;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+div.row.bbcement-3>div:nth-child(1) {
+	min-height: 886px;
+}
+
+.dynamic-nav-menu .toggle-nav-menu {
+	color: #222222;
+}
+
+.dynamic-nav-menu .burg, .dynamic-nav-menu .burg:before, .dynamic-nav-menu .burg:after {
+	background-color: #222222;
+}
