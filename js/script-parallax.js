@@ -10,13 +10,13 @@ $(document).ready(function(){
    	$(window).scroll(function() {
        	var scroll = $(document).scrollTop();
        	$el.css({
-           'background-position':'50% '+(-0.15*scroll+290)+'px'
+           'background-position':'50% '+(-0.15*scroll+250)+'px'
        	});
 		$el2.css({
 			'background-position':'50% '+(-0.15*scroll)+'px'
 		});
 		$el3.css({
-			'background-position':'50% '+(-0.15*scroll)+'px'
+			'background-position':'50% '+(-0.15*scroll+100)+'px'
 		});
 		$el4.css({
 			'background-position':'50% '+(-0.15*scroll)+'px'
