@@ -22,16 +22,30 @@ h1.big-heading {
 	text-transform: none;
 }
 
+section#land h1.big-heading, section#welcome h1.big-heading {
+	line-height: 124.03px;
+	font-size: 80px;
+}
+
 .heading-underlined.black:after {
 	border: 2px solid #2e6b11;
 }
 
 .heading-underlined:after {
 	width: 30%;
+	border: 1px solid #2e6b11;
 }
 
 a, .toggle-nav-menu>div {
 	font-family: 'Abel', sans-serif !important;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+p {
+	font-size: 18px;
 }
 
 .btn-primary {
@@ -40,7 +54,7 @@ a, .toggle-nav-menu>div {
 }
 
 section#land {
-	height: 100vh;
+	height: 750px;
 }
 
 div.row.land-4>div:nth-child(1) {
@@ -49,15 +63,64 @@ div.row.land-4>div:nth-child(1) {
   	background-size: 250%;
   	background-repeat: no-repeat;
 	margin: 0 0 0 0;
-	min-height: 100vh;
+	min-height: 750px;
 	position: absolute;
 	left: 0;
+}
+
+div.row.land-4>div:nth-child(1)>div {
+	transform: translateY(50%);
+}
+
+div.row.land-4>div:nth-child(1)>div img {
+	width: 50%;
+	transform: translateX(50%);
 }
 
 div.row.land-4>div:nth-child(2) {
 	background-color: #f2f6f9;
     position: absolute;
     right: 0;
+}
+
+section#evalast {
+	min-height: 886px;
+}
+
+div.row.evalast-4>div:nth-child(1) {
+	background-image: url("http://localhost:8888/efs/wp-content/uploads/2018/02/Decking_1.png");
+	background-position: 50% 0px;
+  	background-size: 250%;
+  	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0.3);
+  	background-blend-mode: multiply;
+	margin: 0 0 0 0;
+	min-height: 886px;
+	position: absolute;
+	left: 0;
+}
+
+div.row.evalast-4>div:nth-child(2) {
+	background-color: #f2f6f9;
+    position: absolute;
+    right: 0;
+}
+
+section#welcome {
+	min-height: 886px;
+}
+
+div.row.welcome-3>div:nth-child(2) {
+	background-image: url("http://localhost:8888/efs/wp-content/uploads/2018/02/Decking.png");
+	background-position: 100% 0;
+  	background-size: 213%;
+  	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0.3);
+  	background-blend-mode: multiply;
+	margin: 0 0 0 0;
+	position: absolute;
+	left: 50%;
+	min-height: 886px;
 }
 
 div.row.bbcement-3>div:nth-child(2) {
@@ -70,7 +133,6 @@ div.row.bbcement-3>div:nth-child(2) {
 	margin: 0 0 0 0;
 	position: absolute;
 	left: 50%;
-	width: 50%;
     min-height: 886px;
     max-height: 886px;
 }
