@@ -224,3 +224,8 @@ input[type="text"]::placeholder, textarea::placeholder, textarea, input[type="te
 .padding-right-0 {
 	padding-right: 0;
 }
+
+footer {
+	background-color: #9fcc89 !important;
+	color: white !important;
+}
