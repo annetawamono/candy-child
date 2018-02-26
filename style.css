@@ -26,6 +26,18 @@ h1.big-heading {
 	text-transform: none;
 }
 
+a.logo-icon.logo-lite {
+	display: none !important;
+}
+
+.make-it-white {
+	background-color: white !important;
+}
+
+div.burg.activeBurg {
+	background-color: transparent;
+}
+
 section#land h1.big-heading, section#welcome h1.big-heading {
 	line-height: 124.03px;
 	font-size: 80px;
@@ -166,6 +178,12 @@ div.row.bbcement-3>div:nth-child(2)>div img {
 
 div.row.bbcement-3>div:nth-child(1) {
 	min-height: 886px;
+}
+
+@media (min-width: 768px) {
+	div.row.contact>div:nth-child(1) {
+		width: 100%;
+	}
 }
 
 .dynamic-nav-menu .toggle-nav-menu {

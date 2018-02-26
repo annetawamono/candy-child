@@ -11,6 +11,8 @@ function my_custom_javascript() {
 	wp_enqueue_script( 'myjquery' );
     wp_register_script('myscript', get_stylesheet_directory_uri().'/js/script-parallax.js', array('jquery'), '1.0.0');
 	wp_enqueue_script( 'myscript' );
+	wp_register_script('myscript2', get_stylesheet_directory_uri().'/js/header.js', array('jquery'), '1.0.0');
+	wp_enqueue_script( 'myscript2' );
 }
 add_action('wp_enqueue_scripts','my_custom_javascript');
 
