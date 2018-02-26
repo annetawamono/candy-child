@@ -26,7 +26,7 @@ h1.big-heading {
 	text-transform: none;
 }
 
-a {
+a:not(.btn) {
 	color: #2e6b11;
 	text-decoration: underline;
 	cursor: pointer;
