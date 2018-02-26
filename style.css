@@ -167,7 +167,7 @@ div.row.welcome-3>div:nth-child(2) {
 }
 
 div.row.bbcement-3>div:nth-child(2) {
-  	background-image: url(http://localhost:8888/efs/wp-content/uploads/2018/02/man-leveling-the-cement-in-a-backyard-PWL7S47.jpg);
+  	background-image: url("http://localhost:8888/efs/wp-content/uploads/2018/02/man-leveling-the-cement-in-a-backyard-PWL7S47.jpg");
   	background-position: 50% 250px;
   	background-size: 250%;
   	background-repeat: no-repeat;
@@ -353,6 +353,19 @@ footer div.footer-colophon p {
 	
 	.map-marker {
 		width: 0.083%;
+	}
+	
+	section#bbcement {
+    	background-position: 0px 0px;
+    	background-image: url("http://localhost:8888/efs/wp-content/uploads/2018/02/man-leveling-the-cement-in-a-backyard-PWL7S47.jpg");
+    	background-repeat: no-repeat;
+    	background-size: 200%;
+		background-color: rgba(0,0,0,0.3) !important;
+  		background-blend-mode: multiply;
+	}
+	
+	section#bbcement h1, section#bbcement h2, section#bbcement h3, section#bbcement h4, section#bbcement p {
+		color: white;
 	}
 }
 
